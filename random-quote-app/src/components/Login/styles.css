@@ -1,0 +1,41 @@
+/* Lesson33/random-quotes/src/components/Login/styles.css */
+.form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-label {
+    margin-bottom: 6px;
+    align-self: flex-start;
+  }
+  
+  .btn--primary {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    cursor: pointer;
+  }
+  
+  .btn--primary:hover {
+    background-color:var(--primary-dark-color);
+    ;
+  }
+  
+  .error {
+    color: var(--text-error);
+  }
